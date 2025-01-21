@@ -1,10 +1,10 @@
 import React from 'react'
-import Main from './pages/Main'
+import MainPage from './pages/MainPage'
 
 const App = () => {
   return (
     <div>
-      <Main/>
+      <MainPage/>
     </div>
   )
 }

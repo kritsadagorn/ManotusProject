@@ -9,7 +9,7 @@ const Stats = () => {
   ];
 
   return (
-    <div className="border rounded-lg shadow-md w-full sm:w-[70%] md:w-[50%] lg:w-[30%]">
+    <div className="rounded-lg shadow-md w-full sm:w-[70%] md:w-[50%] lg:w-[30%]">
       <div className="text-xl font-Kanit text-center mb-5 bg-white p-2 rounded-xl">
         ตึกศึกษาทั่วไป
       </div>
@@ -17,6 +17,17 @@ const Stats = () => {
         ที่จอดรถที่ว่างปัจจุบัน
       </div>
       <div className="bg-white p-4 font-Kanit">
+        <div className="grid grid-cols-3 gap-4 items-center mb-2 text-center">
+          <div>
+          ตำแหน่ง
+          </div>
+          <div>
+          จำนวน
+          </div>
+          <div>
+          สถานะ
+          </div>
+        </div>
         {parkingSlots.map((slot, index) => (
           <div
             key={index}
