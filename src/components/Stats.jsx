@@ -6,6 +6,7 @@ const Stats = () => {
     { position: "ตำแหน่งที่ 2", status: "2/4", available: true },
     { position: "ตำแหน่งที่ 3", status: "4/4", available: false },
     { position: "ตำแหน่งที่ 4", status: "4/4", available: false },
+    { position: "ตำแหน่งที่ 5", status: "2/4", available: true },
   ];
 
   return (

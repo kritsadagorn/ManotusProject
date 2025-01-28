@@ -6,15 +6,17 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white shadow-md fixed w-screen z-10 -mt-20">
       <div className="flex justify-between items-center p-2 md:px-16">
         {/* Logo and Main Menu */}
         <div className="flex items-center gap-4">
-          <img
-            className="h-12 w-12 object-contain"
-            src={Logo}
-            alt="LogoRmutl"
-          />
+          <Link to="/">
+            <img
+              className="h-12 w-12 object-contain"
+              src={Logo}
+              alt="LogoRmutl"
+            />
+          </Link>
           <div className="hidden md:flex bg-[#664C36] gap-6 p-3 px-10 text-white rounded-full font-Kanit">
             <Link
               to="/"
